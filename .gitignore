@@ -1,0 +1,44 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large Datasets (handled via data/README.md)
+*.csv
+*.parquet
+*.xlsx
+*.xls
+
+# Jupyter & Notebook caches
+.ipynb_checkpoints/
+.jupyter/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+desktop.ini
+
+# Environment variables & secrets
+.env
+.env.local
+*.secrets.toml
+
+# Local logs
+*.log
+
+# Mock frontend prototypes (superseded by Streamlit app.py)
+salarysense-ai-frontend.html
+salarysenseai.css
+salarysenseai.js
+salarysenseai.md
+generate_notebook.py
