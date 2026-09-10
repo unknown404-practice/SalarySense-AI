@@ -21,11 +21,10 @@ SalarySense AI is an enterprise-grade Human Resources decision-support system bu
 5. [Project Structure](#project-structure)
 6. [Local Installation & Execution](#local-installation--execution)
 7. [Automated Testing & Verification](#automated-testing--verification)
-8. [Streamlit Community Cloud Deployment](#streamlit-community-cloud-deployment)
-9. [Configuration & Maintenance](#configuration--maintenance)
-10. [Responsible AI & Ethical Governance](#responsible-ai--ethical-governance)
-11. [Author & Maintainer](#author--maintainer)
-12. [License](#license)
+8. [Configuration & Maintenance](#configuration--maintenance)
+9. [Responsible AI & Ethical Governance](#responsible-ai--ethical-governance)
+10. [Author & Maintainer](#author--maintainer)
+11. [License](#license)
 
 ---
 
@@ -215,23 +214,6 @@ python test_app_logic.py
   - *Candidate B (Mid-Level Software Engineer)*: Age 28, Exp 5 yrs $\rightarrow$ predicted ~$59,644 USD (~₹49,50,444).
   - *Candidate C (Senior Engineering Manager)*: Age 42, Exp 18 yrs $\rightarrow$ predicted ~$147,532 USD (~₹1,22,45,119).
 - **Edge-Case Validation**: Asserts rejection of biologically impossible experience constraints (e.g., Age 25 with 15 years of experience).
-
----
-
-## Streamlit Community Cloud Deployment
-
-This repository is pre-configured for zero-friction continuous deployment on **Streamlit Community Cloud**:
-
-1. **Fork or Push** this repository to your GitHub account:
-   `https://github.com/unknown404-practice/SalarySense-AI.git`
-2. Sign in to [share.streamlit.io](https://share.streamlit.io/) with your GitHub credentials.
-3. Click **"New app"**.
-4. Configure the deployment settings:
-   - **Repository:** `unknown404-practice/SalarySense-AI`
-   - **Branch:** `main`
-   - **Main file path:** `app.py`
-5. Click **"Deploy!"**.
-6. The app will install requirements from `requirements.txt`, load the serialized pipeline from `models/`, and serve traffic automatically.
 
 ---
 
