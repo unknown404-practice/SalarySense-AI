@@ -13,18 +13,29 @@ SalarySense AI is an enterprise-grade Human Resources decision-support system bu
 
 ---
 
+## Live System Interface
+
+<p align="center">
+  <img src="assets/app_screenshot.png" alt="SalarySense AI Live Application Interface" width="100%">
+</p>
+
+*Live application interface showcasing the enterprise HR decision-support workflow, real-time model status indicators, and human-in-the-loop guidelines.*
+
+---
+
 ## Table of Contents
-1. [Dual-Currency Architecture & Transparency](#dual-currency-architecture--transparency)
-2. [Key Capabilities](#key-capabilities)
-3. [System Architecture](#system-architecture)
-4. [Machine Learning Pipeline & Evaluation](#machine-learning-pipeline--evaluation)
-5. [Project Structure](#project-structure)
-6. [Local Installation & Execution](#local-installation--execution)
-7. [Automated Testing & Verification](#automated-testing--verification)
-8. [Configuration & Maintenance](#configuration--maintenance)
-9. [Responsible AI & Ethical Governance](#responsible-ai--ethical-governance)
-10. [Author & Maintainer](#author--maintainer)
-11. [License](#license)
+1. [Live System Interface](#live-system-interface)
+2. [Dual-Currency Architecture & Transparency](#dual-currency-architecture--transparency)
+3. [Key Capabilities](#key-capabilities)
+4. [System Architecture](#system-architecture)
+5. [Machine Learning Pipeline & Evaluation](#machine-learning-pipeline--evaluation)
+6. [Project Structure](#project-structure)
+7. [Local Installation & Execution](#local-installation--execution)
+8. [Automated Testing & Verification](#automated-testing--verification)
+9. [Configuration & Maintenance](#configuration--maintenance)
+10. [Responsible AI & Ethical Governance](#responsible-ai--ethical-governance)
+11. [Author & Maintainer](#author--maintainer)
+12. [License](#license)
 
 ---
 
@@ -139,6 +150,7 @@ SalarySense-AI/
 ├── .streamlit/
 │   └── config.toml                    # Streamlit UI theme and server configuration
 ├── assets/
+│   ├── app_screenshot.png             # Live application preview screenshot
 │   ├── logo.svg                       # SalarySense AI corporate vector logo
 │   └── styles.css                     # OpenDesign executive CSS styling
 ├── data/
